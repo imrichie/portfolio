@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Ricardo Flores stacked blocks</title>
+  <defs>
+    <linearGradient id="top" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse"><stop stop-color="#43e0cc" /><stop offset=".52" stop-color="#1aa5bd" /><stop offset="1" stop-color="#176fa6" /></linearGradient>
+    <linearGradient id="middle" x1="8" y1="17" x2="56" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#e3fffa" /><stop offset=".5" stop-color="#9de5df" /><stop offset="1" stop-color="#8bc8dc" /></linearGradient>
+    <linearGradient id="bottom" x1="8" y1="27" x2="56" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#147ea8" /><stop offset="1" stop-color="#123f66" /></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#0b2855" flood-opacity=".35" /></filter>
+    <pattern id="grid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M5 0H0V5" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width=".5" /></pattern>
+  </defs>
+  <g filter="url(#shadow)" stroke="#fff" stroke-opacity=".12" stroke-width="1.2" stroke-linejoin="round">
+    <path d="M7 27 32 40 57 27v10L34 50c-1 .6-3 .6-4 0L7 37Z" fill="url(#bottom)" />
+    <path d="M7 20 32 33 57 20v10L34 43c-1 .6-3 .6-4 0L7 30Z" fill="url(#middle)" />
+    <path d="M32 6c1 0 2 .2 3 .7l21 11c2 1 2 3.6 0 4.6L35 33.3c-2 1-4 1-6 0L8 22.3c-2-1-2-3.6 0-4.6L29 6.7c1-.5 2-.7 3-.7Z" fill="url(#top)" />
+    <path d="M8 19 32 31.5 56 19 32 7Z" fill="url(#grid)" stroke="none" />
+    <circle cx="25" cy="20" r="6.5" fill="#a9fff2" fill-opacity=".88" stroke="none" />
+    <circle cx="41" cy="22" r="6.5" fill="#8de9f4" fill-opacity=".86" stroke="none" />
+  </g>
+</svg>
