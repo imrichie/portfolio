@@ -1483,14 +1483,14 @@
       data-props='{
   "$preview": { "width": 1080, "height": 1500 },
   "accentColor": { "editor": "color", "default": "#7C6CF7", "options": ["#7C6CF7", "#4E7DF5", "#C24BE8"], "tsType": "string", "section": "Style" },
-  "photoTreatment": { "editor": "enum", "options": ["mono", "color"], "default": "mono", "tsType": "string", "section": "Style" },
+  "photoTreatment": { "editor": "enum", "options": ["mono", "color"], "default": "color", "tsType": "string", "section": "Style" },
   "statusOpen": { "editor": "boolean", "default": true, "tsType": "boolean", "section": "Style" },
   "accentGlow": { "editor": "boolean", "default": true, "tsType": "boolean", "section": "Style" }
 }'
     >
       class Component extends DCLogic {
         renderVals() {
-          const t = this.props.photoTreatment ?? "mono";
+          const t = this.props.photoTreatment ?? "color";
           const open = this.props.statusOpen ?? true;
           return {
             accentColor: this.props.accentColor ?? "#7C6CF7",
